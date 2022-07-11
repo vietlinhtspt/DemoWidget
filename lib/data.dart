@@ -1,0 +1,73 @@
+final jsonData = {
+  'code': 1,
+  'message': 'Lấy danh sách công thành công',
+  'data': {
+    'statistics': {
+      'user_unpaid_leave_days': 0,
+      'user_work_from_home_days': 1,
+      'user_on_leave_days': 0,
+      'total_working_days': 21,
+      'total_time_keeping': 42,
+      'total_hours': 168,
+      'user_working_days': 2,
+      'user_total_timekeeping': 2,
+      'user_total_hours': 6.49,
+      'user_punish_days': 1,
+      'user_punish_amount': 60000
+    },
+    'list': [
+      {
+        'id': 15,
+        'user_id': 21,
+        'date': '2022-07-05',
+        'check_in_at': '2022-07-05 10:29:34',
+        'check_out_at': '2022-07-05 15:29:54',
+        'week_day': 3,
+        'check_in_late_in': 175,
+        'check_out_early_in': 0,
+        'agree_check_in_late': 0,
+        'agree_check_out_early': 0,
+        'agree_check_in_late_in': 0,
+        'agree_check_out_early_in': 0,
+        'check_in_late_penalty': 0,
+        'check_out_early_penalty': 0,
+        'total_timekeeping': 1,
+        'total_hour': 3.5,
+        'month': 7,
+        'year': 2022,
+        'created_at': '2022-07-05T03:55:34.000000Z',
+        'updated_at': '2022-07-05T08:40:28.000000Z',
+        'morning_timekeeping': 0.5,
+        'afternoon_timekeeping': 0.5,
+        'note': 'Nghỉ sớm đi Tây Ban Nha',
+        'created_by': 1
+      },
+      {
+        'id': 16,
+        'user_id': 21,
+        'date': '2022-07-06',
+        'check_in_at': '2022-07-06 09:00:49',
+        'check_out_at': '2022-07-06 12:00:05',
+        'week_day': 4,
+        'check_in_late_in': 60,
+        'check_out_early_in': 329,
+        'agree_check_in_late': 0,
+        'agree_check_out_early': null,
+        'agree_check_in_late_in': 0,
+        'agree_check_out_early_in': null,
+        'check_in_late_penalty': 60000,
+        'check_out_early_penalty': 0,
+        'total_timekeeping': 1,
+        'total_hour': 2.99,
+        'month': 7,
+        'year': 2022,
+        'created_at': '2022-07-06T02:00:49.000000Z',
+        'updated_at': '2022-07-06T05:01:29.000000Z',
+        'morning_timekeeping': 1,
+        'afternoon_timekeeping': 0,
+        'note': null,
+        'created_by': 1
+      }
+    ]
+  }
+};
